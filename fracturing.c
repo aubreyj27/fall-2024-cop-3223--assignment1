@@ -70,7 +70,7 @@ double calculateDistance()
 {
     // scan and print x & y variables
     double x1, x2, y1, y2;
-    scanAndPrint(x1, x2, y1, y2);
+    scanAndPrint(&x1, &x2, &y1, &y2);
 
     // calculate and print distance 
     double distance = calculateNoOutput(x1, x2, y1, y2);
@@ -104,7 +104,7 @@ double calculatePerimeter()
 {
     // scan and print x & y variables
     double x1, x2, y1, y2;
-    scanAndPrint(x1, x2, y1, y2);
+    scanAndPrint(&x1, &x2, &y1, &y2);
 
     // calculate and print perimeter
     double distance = calculateNoOutput(x1, x2, y1, y2);
@@ -138,7 +138,7 @@ double calculateArea()
 {
     // scan and print x & y variables
     double x1, x2, y1, y2;
-    scanAndPrint(x1, x2, y1, y2);
+    scanAndPrint(&x1, &x2, &y1, &y2);
 
     // calculate and print area
     double distance = calculateNoOutput(x1, x2, y1, y2);
@@ -171,7 +171,7 @@ double calculateWidth()
 {
     // scan and print x & y variables
     double x1, x2, y1, y2;
-    scanAndPrint(x1, x2, y1, y2);
+    scanAndPrint(&x1, &x2, &y1, &y2);
 
     // calculate and print width
     double width = calculateNoOutput(x1, x2, y1, y2);
@@ -196,7 +196,7 @@ double calculateHeight()
 {
     // scan and print x & y variables
     double x1, x2, y1, y2;
-    scanAndPrint(x1, x2, y1, y2);
+    scanAndPrint(&x1, &x2, &y1, &y2);
 
     // calculate and print height
     double height = calculateNoOutput(x1, x2, y1, y2);
