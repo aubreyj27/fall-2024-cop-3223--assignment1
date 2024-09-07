@@ -82,10 +82,14 @@ double calculateDistance()
     // calculate and print distance 
     double distance = calculateNoOutput(x1, x2, y1, y2);
 <<<<<<< HEAD
+<<<<<<< HEAD
     printf("The distance between the two points is %lf", distance);
 =======
     printf("The distance between the two points is %.1lf", distance);
 >>>>>>> d1b203d (commit)
+=======
+    printf("The distance between the two points is %.1lf\n", distance);
+>>>>>>> 884efc0 (:()
 
     return distance;
 }
@@ -113,10 +117,14 @@ double calculatePerimeter()
     double distance = calculateNoOutput(x1, x2, y1, y2);
     double perimeter = pi*distance;
 <<<<<<< HEAD
+<<<<<<< HEAD
     printf("The perimeter of the city encompassed by your request is %lf", perimeter);
 =======
     printf("The perimeter of the city encompassed by your request is %.1lf", perimeter);
 >>>>>>> d1b203d (commit)
+=======
+    printf("The perimeter of the city encompassed by your request is %.1lf\n", perimeter);
+>>>>>>> 884efc0 (:()
 
     return 3;
 }
@@ -143,10 +151,14 @@ double calculateArea()
     double distance = calculateNoOutput(x1, x2, y1, y2);
     double area = pow((distance/2),2)*pi;
 <<<<<<< HEAD
+<<<<<<< HEAD
     printf("The area of your city is %lf", area)
 =======
     printf("The area of your city is %.1lf", area);
 >>>>>>> d1b203d (commit)
+=======
+    printf("The area of your city is %.1lf\n", area);
+>>>>>>> 884efc0 (:()
 
     return 3;
 }
@@ -170,7 +182,7 @@ double calculateWidth()
 
     // calculate and print width
     double width = calculateNoOutput(x1, x2, y1, y2);
-    printf("The width of the city encompassed by your request is %.1lf", width);
+    printf("The width of the city encompassed by your request is %.1lf\n", width);
 
     return 1;
 >>>>>>> d1b203d (commit)
@@ -195,7 +207,7 @@ double calculateHeight()
 
     // calculate and print height
     double height = calculateNoOutput(x1, x2, y1, y2);
-    printf("The height of the city encompassed by your request is %.1lf", height);
+    printf("The height of the city encompassed by your request is %.1lf\n", height);
 
     return 1;
 >>>>>>> d1b203d (commit)
