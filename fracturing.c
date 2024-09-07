@@ -167,8 +167,10 @@ double calculateWidth()
     // scan and print x & y variables
     double x1, x2, y1, y2;
     scanAndPrint(x1, x2, y1, y2);
-<<<<<<< HEAD
-=======
+
+    // calculate and print width
+    double width = calculateNoOutput(x1, x2, y1, y2);
+    printf("The width of the city encompassed by your request is %.1lf", width);
 
     return 1;
 >>>>>>> d1b203d (commit)
@@ -191,9 +193,10 @@ double calculateHeight()
     double x1, x2, y1, y2;
     scanAndPrint(x1, x2, y1, y2);
 
-<<<<<<< HEAD
-    return 0;
-=======
+    // calculate and print height
+    double height = calculateNoOutput(x1, x2, y1, y2);
+    printf("The height of the city encompassed by your request is %.1lf", height);
+
     return 1;
 >>>>>>> d1b203d (commit)
 }
