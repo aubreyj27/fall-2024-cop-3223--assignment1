@@ -29,7 +29,7 @@
 void scanAndPrint(double *x1, double *x2, double *y1, double *y2)
 {
     // scan and print x and y variables
-    scanf("%lf%lf%lf%lf", &x1, &x2, &y1, &y2);
+    scanf("%lf%lf%lf%lf", x1, x2, y1, y2);
     printf("Point #1 entered: x1 = %.1lf ; y1 = %.1lf\n", *x1, *y1);
     printf("Point #2 entered: x2 = %.1lf ; y2 = %.1lf\n", *x2, *y2);
 }
