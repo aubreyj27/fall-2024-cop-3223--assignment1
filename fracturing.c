@@ -39,11 +39,7 @@ void scanAndPrint(double *x1, double *x2, double *y1, double *y2)
 // 
 // Purpose: Calculates distance between two points
 // Arguments: x1, x2, y1, y2
-<<<<<<< HEAD
-// Output: none - this is important
-=======
 // Output: none 
->>>>>>> d1b203d (commit)
 // Return: calculation
 //#########################################################
 
@@ -74,15 +70,7 @@ double calculateDistance()
 
     // calculate and print distance 
     double distance = calculateNoOutput(x1, x2, y1, y2);
-<<<<<<< HEAD
-<<<<<<< HEAD
-    printf("The distance between the two points is %lf", distance);
-=======
-    printf("The distance between the two points is %.1lf", distance);
->>>>>>> d1b203d (commit)
-=======
     printf("The distance between the two points is %.1lf\n", distance);
->>>>>>> 884efc0 (:()
 
     return distance;
 }
@@ -109,15 +97,7 @@ double calculatePerimeter()
     // calculate and print perimeter
     double distance = calculateNoOutput(x1, x2, y1, y2);
     double perimeter = pi*distance;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    printf("The perimeter of the city encompassed by your request is %lf", perimeter);
-=======
-    printf("The perimeter of the city encompassed by your request is %.1lf", perimeter);
->>>>>>> d1b203d (commit)
-=======
     printf("The perimeter of the city encompassed by your request is %.1lf\n", perimeter);
->>>>>>> 884efc0 (:()
 
     return 3;
 }
@@ -143,15 +123,7 @@ double calculateArea()
     // calculate and print area
     double distance = calculateNoOutput(x1, x2, y1, y2);
     double area = pow((distance/2),2)*pi;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    printf("The area of your city is %lf", area)
-=======
-    printf("The area of your city is %.1lf", area);
->>>>>>> d1b203d (commit)
-=======
     printf("The area of your city is %.1lf\n", area);
->>>>>>> 884efc0 (:()
 
     return 3;
 }
@@ -178,7 +150,6 @@ double calculateWidth()
     printf("The width of the city encompassed by your request is %.1lf\n", width);
 
     return 1;
->>>>>>> d1b203d (commit)
 }
 
 //#########################################################
@@ -203,16 +174,11 @@ double calculateHeight()
     printf("The height of the city encompassed by your request is %.1lf\n", height);
 
     return 1;
->>>>>>> d1b203d (commit)
 }
 
 int main(int argc, char **argv)
 {
-<<<<<<< HEAD
-    calulateDistance();
-=======
     calculateDistance();
->>>>>>> d1b203d (commit)
     calculatePerimeter();
     calculateArea();
     calculateWidth();
